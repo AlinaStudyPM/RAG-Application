@@ -18,3 +18,14 @@
 - RAG: ChromaDB + multilingual-e5-small
 - LLM: Любая модель Ollama
 
+### Установка
+1. Установить программы:
+• tesseract-ocr с языковыми пакетами tesseract-ocr-rus и tesseract-ocr-eng
+• chromadb
+• poppler-utils
+• ollama
+2. Установить библиотеки python
+`pip install -r requirements.txt`
+3. Выберать модель нейросети и указать её название в переменной OLLAMA_MODEL.
+4. Запустить файл с кодом с помощью интерпретатора python.
+
